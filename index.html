@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,6 +32,7 @@
       </div>
       <div class="progress-container">
         <div id="progressBar" class="progress-bar"></div>
+        <span id="progressPercent" class="progress-percent">0%</span>
       </div>
     </div>
     <div class="container">
@@ -80,6 +81,18 @@
             <span class="team-count" id="powerCount">0</span>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div
+      id="celebration"
+      class="celebration hidden"
+      role="status"
+      aria-live="polite"
+    >
+      <div class="celebration-content">
+        <span class="celebration-icon">🎉</span>
+        <strong>Event full! Great work, teams!</strong>
       </div>
     </div>
 
